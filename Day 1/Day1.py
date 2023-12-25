@@ -1,5 +1,6 @@
-puzzleInput = data = open('D1.txt', 'r').read().split('\n')
+puzzleInput = data = open('Day 1/input.txt', 'r').read().split('\n')
 sum = 0
+numbers = ["one","two","three","four","five","six","seven","eight","nine"]
 for line in puzzleInput:
     firstDigit = 0
     lastDigit = 0
@@ -15,5 +16,5 @@ for line in puzzleInput:
     elif firstDigit and not(lastDigit):
         sum = sum + (10*int(firstDigit)+int(firstDigit))
 
-
+input = "sgnfscdnd52twozg"
 print(sum)
