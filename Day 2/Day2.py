@@ -21,8 +21,7 @@ for game in puzzleInput:
         # round is: 6 red, 1 blue, 3 green
         for colours in round:
             if gamePossible:
-                colours = colours.replace(", ",",")
-                colouredBalls = colours.split(",")
+                colouredBalls = colours.replace(", ",",").split(",")
                 #20 green
                 # the number of balls is known in this block only.
                 for balls in colouredBalls:

@@ -18,3 +18,9 @@ for line in puzzleInput:
 
 input = "sgnfscdnd52twozg"
 print(sum)
+
+
+##Part 2 Use Regex
+
+import re
+re.compile(pattern="")
